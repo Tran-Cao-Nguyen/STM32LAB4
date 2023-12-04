@@ -117,12 +117,12 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   SCH_Init();
-  SCH_Add_Task(oneshotTask, 2000, 0);
-  SCH_Add_Task(Task1, 3000, 500);
-  SCH_Add_Task(Task2, 3010, 1000);
-  SCH_Add_Task(Task3, 3020, 1500);
-  SCH_Add_Task(Task4, 3030, 2000);
-  SCH_Add_Task(Task5, 3040, 2500);
+  SCH_Add_Task(oneshotTask, 5000, 0);
+  SCH_Add_Task(Task1, 1000, 500);
+  SCH_Add_Task(Task2, 1010, 1000);
+  SCH_Add_Task(Task3, 1020, 1500);
+  SCH_Add_Task(Task4, 1030, 2000);
+  SCH_Add_Task(Task5, 1040, 2500);
 
   while (1)
   {
